@@ -1,5 +1,6 @@
 body{
     margin:0;
+    width: 100vw;
 }
 .poppins-regular {
     font-family: "Poppins", sans-serif;
@@ -11,6 +12,7 @@ body{
     height: 100vh;
     width: 100%;
     background-color: #F0FFF0;
+    margin:0;
 }
 .headernav{
     height: 80px;
@@ -78,4 +80,124 @@ nav a{
 .header-right img{
     width: 90%;
     height: 50%;
+}
+.resources{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    height: 300px;
+    width: 100vw;
+    margin-left: 40px;
+    margin-right: 50px;
+    
+}
+.resource{
+    display: flex;
+    border-radius: 5px;
+    height: 200px;
+    width:200px;
+    margin: 1px 10px;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    flex-direction: column;
+    line-height: 1px;
+}
+.resource img{
+    height:50px;
+    width: 40px;
+}
+.resource:hover{
+    box-shadow: 10px 10px 40px gray;
+}
+#oncourse{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+.courses{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    height: 400px;
+    width: 100vw;
+    margin-left: 40px;
+    margin-right: 50px;
+}
+.course{
+    display: flex;
+    border-radius: 9px;
+    height: 330px;
+    width:260px;
+    padding-left: 10px;
+    margin: 1px 20px;
+    flex-direction: column;
+    line-height: 0px;
+    box-shadow: 1px 1px 5px gray;
+}
+.course img{
+    height:170px;
+    width: 250px;
+    margin-top: 10px;
+    margin-left: 0px;
+    margin-right: 10px;
+}
+.buycourse{
+    color: white;
+    text-decoration: none;
+    background-image: linear-gradient(90deg, #21b573,#21b573);
+    border-radius: 33px;
+    padding: 20px;
+    width: 90px;
+}
+.testimonial{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    margin: 0 160px;
+    height: 250px;
+
+}
+.testimonial img{
+    height: 130px;
+    width: 130px;
+    margin:10px;
+}
+.footer{
+    height: 300px;
+    background-color: rgb(5, 4, 13);
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.fo1{
+    color: white;
+    width:30%;
+    padding-left:20px;
+}
+.fo2 {
+    color:white;
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    
+}
+.fo2 ul>li{
+    color: white;
+    text-decoration: none;
+    list-style-type: none;
+    margin:0;
+    padding:4px;
+
+}
+.fo2 ul>li>a{
+    color: white;
+    margin:0;
+    padding:0;
+}
+.fo2 h3{
+    margin-left: 25px;
 }
