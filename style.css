@@ -49,6 +49,17 @@ nav a{
     opacity: 0px;
 
 }
+#last{
+    height: 80px;
+    width: 80px;
+    background-color: aliceblue;
+    text-align: justify;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 100px;
+    font-weight: 900;
+}
 
 .lower-header-baner{
     display: flex;
